@@ -106,7 +106,7 @@
     "querystring-es3": "~0.2.0",
     "react": "16.13.1",
     "react-hook-form": "^6.15.4",
-    "react-i18next": "^11.7.0",
+    "react-i18next": "^11.10.0",
     "react-native": "0.63.4",
     "react-native-android-badge": "^0.4.3",
     "react-native-appearance": "^0.3.2",
