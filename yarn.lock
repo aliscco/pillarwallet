@@ -2700,6 +2700,11 @@
     rxjs "6.4.0"
     rxjs-addons "^0.0.4"
 
+"@snyk/protect@^1.910.0":
+  version "1.910.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.910.0.tgz#2d6ca9e9541342a4aa7d865cf19e967c66e8805d"
+  integrity sha512-MhUGZEbPqDWAyx83tiCQB9dP5mMOQiCvZFluZrnKbRUKXvfMEHbun5O/2qnginqo9RWqg8UlJ1wyEaMVFhOvcA==
+
 "@storybook/addon-actions@^5.3.12":
   version "5.3.19"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.3.19.tgz#50548fa6e84bc79ad95233ce23ade4878fc7cfac"
