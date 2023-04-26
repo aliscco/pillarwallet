@@ -24,7 +24,9 @@
     "jest-update": "jest --colors -u",
     "postinstall": "./node_modules/.bin/rn-nodeify --install --hack --yarn && mv shim.js src/utils && patch-package && jetifier",
     "storybook": "start-storybook -p 7007",
-    "prestorybook": "rnstl"
+    "prestorybook": "rnstl",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@etherspot/archanova-migrator": "^1.0.0",
@@ -194,7 +196,8 @@
     "victory-native": "^35.3.1",
     "vm-browserify": "0.0.4",
     "wallet-address-validator": "^0.2.4",
-    "yup": "^0.32.9"
+    "yup": "^0.32.9",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -348,5 +351,6 @@
       "pattern": "**/*.stories.js",
       "outputFile": "./storybook/storyLoader.js"
     }
-  }
+  },
+  "snyk": true
 }
