@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-native > @react-native-community/cli > metro > @babel/core > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-hermes > @react-native-community/cli-platform-android > @react-native-community/cli-tools > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - jest > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-05-26T08:45:50.616Z'
