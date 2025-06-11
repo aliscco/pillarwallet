@@ -231,7 +231,7 @@
     "eslint-plugin-react-native": "^3.2.1",
     "flow-bin": "^0.122.0",
     "invariant": "^2.2.4",
-    "jest": "^25.1.0",
+    "jest": "^30.0.0",
     "jest-html-reporter": "^2.8.2",
     "jest-react-native": "^18.0.0",
     "jest-styled-components": "^7.0.3",
